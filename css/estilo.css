@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.insere-tarefas-form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.insere-tarefas-form h2{
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    font-weight: 900;
+}
+
+.insere-form{
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.insere-form input, textarea{
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    border: 0;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.insere-form input[type = submit]{
+    background-color: #00CAF6;
+    color: white;
+    font-weight: 600;
+}
